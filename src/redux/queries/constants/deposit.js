@@ -1,0 +1,3 @@
+export const DEPOSIT_SUCCESS = "DEPOSIT_SUCCESS";
+
+export const DEPOSIT_FAIL = "DEPOSIT_FAIL";

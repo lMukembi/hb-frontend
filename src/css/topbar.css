@@ -1,0 +1,51 @@
+.topbar {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  background-color: rgb(25, 25, 25);
+  box-shadow: rgb(25, 25, 25, 25) 0px 25px 20px -20px;
+  /* padding: 5px; */
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+@media only screen and (min-width: 768px) {
+  .topbar {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+.topbar h3 {
+  font-size: 30px;
+}
+
+.topbar_deposit_button {
+  background-color: green;
+  border-radius: 30px;
+  padding: 10px 3rem;
+  text-decoration: none;
+  color: white;
+}
+
+.topbar_buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.topbar_buttons button {
+  border-radius: 30px;
+  padding: 10px 3rem;
+  font-size: 18px;
+}
+
+.topbar_login {
+  margin-right: 1rem;
+}
+
+.topbar_register_button {
+  outline: 2px solid #3b0213;
+}

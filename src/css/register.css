@@ -1,0 +1,94 @@
+.register {
+  background-color: rgb(25, 25, 25);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.register_header {
+  font-size: 25px;
+  text-align: center;
+}
+
+.register_phone {
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.username {
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.email {
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.password {
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.register_button {
+  background-color: green;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 25px;
+  color: white;
+  margin-top: 10px;
+}
+
+.goback {
+  margin: 5px auto auto 5px;
+}
+
+.register_back {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.tos {
+  text-decoration: none;
+  color: #ff4747;
+}
+
+.login_on_register {
+  text-decoration: none;
+  color: #ff4747;
+}
+
+.register_info {
+  text-align: center;
+}
+
+.register i {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  z-index: 2;
+  right: 7%;
+  color: #ff4747;
+}
+
+@media only screen and (min-width: 768px) {
+  .register {
+    width: 80%;
+    margin: auto;
+  }
+
+  .register i {
+    top: 40%;
+    right: 15%;
+  }
+}

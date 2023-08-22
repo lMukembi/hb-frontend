@@ -1,0 +1,125 @@
+.account {
+  background-color: rgb(25, 25, 25);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 10px;
+  z-index: 5;
+}
+
+.account_header {
+  font-size: 25px;
+  text-align: center;
+}
+
+.account_user_details {
+  background-color: black;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.account_user_details_items {
+  list-style: none;
+  padding: 10px;
+}
+
+.account_user_details_items p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.account_deposit {
+  background-color: black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.account_deposit_header {
+  font-size: 25px;
+}
+
+.deposit_money {
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.deposit_button {
+  background-color: green;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  margin-top: 10px;
+}
+
+.account_withdraw {
+  background-color: black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.account_withdraw_header {
+  font-size: 25px;
+}
+
+.withdraw_money {
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.withdraw_button {
+  background-color: green;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  margin-top: 10px;
+  outline: none;
+}
+
+.account_back {
+  display: flex;
+  align-items: center;
+}
+
+.line_separator {
+  width: 80%;
+  margin: 5px auto 5px auto;
+  border-top: 0.5px solid white;
+}
+
+.logout {
+  text-align: center;
+  color: green;
+  margin: 10px auto 10px auto;
+}
+
+.version {
+  text-align: center;
+  font-size: 10px;
+}
+
+.close_account_settings {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.5);
+  top: 0rem;
+  bottom: 0rem;
+  right: 0rem;
+  left: 0rem;
+  z-index: 4;
+}

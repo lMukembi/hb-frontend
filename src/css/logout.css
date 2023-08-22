@@ -1,0 +1,62 @@
+.logout_form {
+  background-color: rgb(25, 25, 25);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  position: fixed;
+  z-index: 5;
+  width: 95%;
+  color: white;
+}
+
+.close_logout {
+  margin: 5px 5px auto auto;
+}
+
+.close_logout_form {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.75);
+  top: 0rem;
+  bottom: 0rem;
+  right: 0rem;
+  left: 0rem;
+  z-index: 4;
+}
+
+.logout_header {
+  font-size: 25px;
+  text-align: center;
+}
+
+.logout_info {
+  text-align: center;
+}
+
+.logout_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+}
+
+.logout_cancel_button {
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  margin-top: 10px;
+}
+
+.logout_button {
+  background-color: green;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  margin-top: 10px;
+}

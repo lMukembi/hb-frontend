@@ -1,0 +1,18 @@
+.terms_of_service {
+  background-color: rgb(25, 25, 25);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.tos_back {
+  display: flex;
+  align-items: center;
+}
+
+.tos_header {
+  font-size: 25px;
+}
+
+.tos_hr {
+  border-top: 1px solid white;
+}
