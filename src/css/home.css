@@ -43,10 +43,32 @@
   margin: 10px;
 }
 
+.quick_links_items {
+  display: flex;
+  justify-content: center;
+}
+
 .testimonial img {
   border-radius: 15px;
   width: 100%;
   margin: auto;
+}
+
+.footer_info {
+  padding: 5px;
+  border-radius: 15px;
+  background-color: rgb(35, 35, 35);
+}
+
+.footer_info div {
+  display: flex;
+  justify-content: center;
+}
+
+.footer_info div img {
+  width: 100px;
+  margin: 5px;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
@@ -88,11 +110,23 @@
     width: 49%;
     margin: 1px;
   }
+  /* 
+  .footer_info {
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(35, 35, 35);
+  }
 
-  .quick_links_items {
+  .footer_info div {
     display: flex;
     justify-content: center;
   }
+
+  .footer_info div img {
+    width: 100px;
+    margin: 5px;
+    cursor: pointer;
+  } */
 
   .quick_links_item:hover {
     background: -webkit-linear-gradient(#ff4747, #ff4880);

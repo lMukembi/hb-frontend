@@ -4,6 +4,8 @@ import "../css/home.css";
 import { Link } from "react-router-dom";
 import Topbar from "./topbar";
 import HustlersBridge from "../resources/HustlersBridge.jpg";
+import Norton from "../resources/Norton.png";
+import BBBSeal from "../resources/BBBSeal.png";
 import HustlersBridgeTestimonials from "../resources/HustlersBridgeTestimonials.jpg";
 import Courses from "./courses";
 import Studyguides from "./studyguides";
@@ -53,6 +55,18 @@ const Home = () => {
           <button>
             <Link to="/register">JOIN HUSTLERS BRIDGE</Link>
           </button>
+        </div>
+        <div className="footer_info">
+          <div>
+            <img src={BBBSeal} />
+
+            <img src={Norton} />
+          </div>
+          <p>
+            Could not connect to the reCAPTCHA service? Check your internet
+            connection and reload again.
+          </p>
+          <p>Studypool is powered by MicrotutoringTM</p>
         </div>
         <div>
           <h2>Quick Links</h2>
