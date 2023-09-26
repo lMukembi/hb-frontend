@@ -14,9 +14,8 @@
 .courses div p {
   background-color: #283541;
   list-style-type: none;
-  width: 35%;
-  height: 50px;
-  padding: 5px;
+  width: 33%;
+  padding: 2px;
   display: flex;
   margin: 5px;
   align-items: center;
@@ -25,10 +24,10 @@
 }
 
 .courses span {
-  font-size: 20px;
+  font-size: 15px;
   margin-top: 5px;
 }
 
 .courseicon {
-  font-size: 45px;
+  font-size: 35px;
 }

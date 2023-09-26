@@ -10,17 +10,16 @@ const Courses = () => {
       <h1>Programmes</h1>
       <div>
         <p>
+          <BsCurrencyExchange className="courseicon" />
+          <span>Crypto</span>
+        </p>
+        <p>
           <FaHandshake className="courseicon" />
           <span>Freelancing</span>
         </p>
-
-        <p>
-          <BsCurrencyExchange className="courseicon" />
-          <span>Cryptocurrency</span>
-        </p>
         <p>
           <FaLaptopCode className="courseicon" />
-          <span>Web development</span>
+          <span>Coding</span>
         </p>
       </div>
       <div>
@@ -29,12 +28,12 @@ const Courses = () => {
           <span>Stocks</span>
         </p>
         <p>
-          <BsGraphUp className="courseicon" />
-          <span>Forex</span>
-        </p>
-        <p>
           <MdCampaign className="courseicon" />
           <span>Affiliate marketing</span>
+        </p>
+        <p>
+          <BsGraphUp className="courseicon" />
+          <span>Forex</span>
         </p>
       </div>
     </div>

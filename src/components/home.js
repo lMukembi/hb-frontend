@@ -6,6 +6,7 @@ import Topbar from "./topbar";
 import HustlersBridge from "../resources/HustlersBridge.jpg";
 import HustlersBridgeTestimonials from "../resources/HustlersBridgeTestimonials.jpg";
 import Courses from "./courses";
+import Studyguides from "./studyguides";
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
             <h1>
               You are<span> running out</span> of<span> time</span>.
             </h1>
-            <p>
+            <p className="home_info_text">
               Our practical approach to teaching has led to tens of thousands of
               our students generating money from anywhere in Kenya.
             </p>
@@ -32,6 +33,7 @@ const Home = () => {
         </div>
         <Courses />
 
+        <Studyguides />
         <div className="testimonials">
           <h1>Are you ready to level up?</h1>
           <div className="testimonial">

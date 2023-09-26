@@ -4,10 +4,6 @@
   background-color: black;
 }
 
-.home p {
-  overflow-wrap: break-word;
-}
-
 .home ul li {
   overflow-wrap: break-word;
 }
@@ -24,7 +20,7 @@
 }
 
 .home_top p {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .home_image {
@@ -66,6 +62,7 @@
 
   .home_info {
     width: 60%;
+    position: relative;
   }
 
   .home_image {
